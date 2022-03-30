@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/drawable/border.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/drawable/border_black.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/drawable/border_perce.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/drawable/list_item_selector.xml" value="0.1328125" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/drawable/my_radial_gradient.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/font/pattaya.xml" value="0.234375" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/activity_detalji.xml" value="0.12" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/activity_izmena_podataka.xml" value="0.14" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/activity_kupac_pocetna.xml" value="0.14" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/activity_preporuke.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/dialog_kom_ocena.xml" value="0.1140625" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/dialog_neuspesna_preporuka.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/dialog_preporuke.xml" value="0.12" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/dialog_uspesna_preporuka.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/list_item.xml" value="0.22" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/list_item_korisnik_za_preporuku.xml" value="0.25" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/list_item_oc.xml" value="0.16" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/layout/list_item_preporuceno.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Sandra/AndroidStudioProjects/Perce/app/src/main/res/menu/menu.xml" value="0.14907407407407408" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

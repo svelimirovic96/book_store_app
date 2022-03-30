@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/my_radial_gradient">
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center" android:id="@+id/logoPart">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/percelog"
+            android:id="@+id/logo">
+
+        </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PERCE"
+                android:textSize="26dp"
+                android:fontFamily="@font/pattaya_regular"
+                android:textColor="@color/yellow_rad"
+                android:id="@+id/textFront">
+
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/books_banner">
+
+        </ImageView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="130dp">
+
+    <TableLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Korisničko ime"
+                android:paddingBottom="20dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"></TextView>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/korisnicko_ime"
+                android:layout_weight="3"
+                android:textStyle="italic"
+                android:inputType="text"
+                android:layout_marginRight="50dp"
+                android:hint="Unesite Vaše korisničko ime"
+                android:background="@drawable/border_black"
+                >
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Lozinka"
+                android:textColor="@color/black"
+                android:paddingBottom="20dp"
+                android:textSize="14sp"
+                android:textStyle="bold">
+            </TextView>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginRight="50dp"
+                android:id="@+id/lozinka"
+                android:layout_weight="3"
+                android:hint="Unesite Vašu lozinku"
+                android:textStyle="italic"
+                android:inputType="textPassword"
+                android:background="@drawable/border_black"
+                >
+            </EditText>
+        </TableRow>
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Prijavite se"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            app:backgroundTint="#FF732D"
+            app:cornerRadius="7px"
+            app:strokeColor="#000000"
+            android:layout_marginHorizontal="130dp"
+            app:strokeWidth="3px"
+            android:onClick="prijavaKorisnika">
+
+        </Button>
+
+
+    </TableLayout>
+    </LinearLayout>
+</LinearLayout>

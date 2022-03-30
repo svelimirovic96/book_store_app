@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/my_radial_gradient">
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center" android:id="@+id/logoPart">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/percelog"
+                android:id="@+id/logo">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PERCE"
+                android:textSize="26dp"
+                android:fontFamily="@font/pattaya_regular"
+                android:textColor="@color/yellow_rad"
+                android:id="@+id/textFront">
+
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/books_banner">
+
+        </ImageView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_height="320dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingBottom="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dostupne"
+                android:gravity="center"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="@font/pattaya_regular">
+
+            </TextView>
+            <ListView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/listView1"
+                android:paddingHorizontal="100dp"
+                android:layout_gravity="center"
+                ></ListView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="320dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingBottom="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/naPromociji"
+                    android:gravity="center"
+                    android:textColor="@color/pink"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/pattaya_regular">
+
+                </TextView>
+                <ListView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/listView2"
+                    android:paddingHorizontal="100dp"
+                    android:layout_gravity="center"
+                    ></ListView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

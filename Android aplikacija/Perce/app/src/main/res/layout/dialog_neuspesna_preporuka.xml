@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="150dp"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:paddingBottom="50dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neuspešno preporučivanje knjiga."
+        android:textColor="@color/pink"
+        android:textSize="36dp"
+        android:textStyle="italic|bold"
+        android:textAlignment="center"
+        android:id="@+id/bezuspesno">
+
+    </TextView>
+
+</LinearLayout>

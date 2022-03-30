@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Komentar"
+        android:id="@+id/komentarKnjige"></TextView>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <RatingBar android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:numStars="5" android:stepSize="1" android:clickable="false"
+            android:id="@+id/ocenaKnjige"
+            android:progressTint="@color/yellow_rad">
+
+        </RatingBar>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Komentator"
+            android:textAlignment="textEnd"
+            android:id="@+id/komentator"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

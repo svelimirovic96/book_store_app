@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Perce</string>
+    <string name="dostupne"><u>Dostupne knjige</u></string>
+    <string name="naPromociji"><u>Na promociji</u></string>
+    <string name="preporucene"><u>Preporučene knjige</u></string>
+</resources>

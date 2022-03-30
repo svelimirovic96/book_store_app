@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/my_radial_gradient"
+    tools:context=".IzmenaPodatakaActivity">
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center" android:id="@+id/logoPart">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/percelog"
+                android:id="@+id/logo">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PERCE"
+                android:textSize="26dp"
+                android:fontFamily="@font/pattaya_regular"
+                android:textColor="@color/yellow_rad"
+                android:id="@+id/textFront">
+
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/books_banner">
+
+        </ImageView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TableLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:paddingLeft="5dp">
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ime"
+                        android:paddingBottom="10dp"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/pattaya_regular"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imeK"
+                        android:layout_weight="3"
+                        android:textStyle="italic"
+                        android:textSize="25sp"
+                        android:inputType="text"
+                        android:text="Ime korisnika"
+                        android:background="@drawable/border_black"
+                        >
+                    </EditText>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Prezime"
+                        android:paddingBottom="10dp"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/pattaya_regular"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/prezimeK"
+                        android:layout_weight="3"
+                        android:textStyle="italic"
+                        android:textSize="25sp"
+                        android:inputType="text"
+                        android:text="Prezime korisnika"
+                        android:background="@drawable/border_black"
+                        >
+                    </EditText>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Kontakt telefon"
+                        android:paddingBottom="10dp"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/pattaya_regular"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/kontaktK"
+                        android:layout_weight="3"
+                        android:textStyle="italic"
+                        android:textSize="25sp"
+                        android:inputType="text"
+                        android:text="Kontakt korisnika"
+                        android:background="@drawable/border_black"
+                        >
+                    </EditText>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Adresa"
+                        android:paddingBottom="10dp"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/pattaya_regular"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/adresaK"
+                        android:layout_weight="3"
+                        android:textStyle="italic"
+                        android:textSize="25sp"
+                        android:inputType="text"
+                        android:text="Adresa korisnika"
+                        android:background="@drawable/border_black"
+                        >
+                    </EditText>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Korisničko ime"
+                        android:paddingBottom="10dp"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/pattaya_regular"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/korimeK"
+                        android:layout_weight="3"
+                        android:textStyle="italic"
+                        android:textSize="25sp"
+                        android:inputType="text"
+                        android:text="Kor_ime korisnika"
+                        android:background="@drawable/border_black"
+                        >
+                    </EditText>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Lozinka"
+                        android:paddingBottom="10dp"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/pattaya_regular"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lozinkaK"
+                        android:layout_weight="3"
+                        android:textStyle="italic"
+                        android:textSize="25sp"
+                        android:inputType="textPassword"
+                        android:text="Lozinka korisnika"
+                        android:background="@drawable/border_black"
+                        >
+                    </EditText>
+                </TableRow>
+            </TableLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Izmenite podatke"
+                android:padding="20dp"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                app:backgroundTint="#FF732D"
+                app:cornerRadius="10dp"
+                android:onClick="izmena">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
