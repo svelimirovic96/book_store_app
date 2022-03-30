@@ -1,2 +1,2 @@
-# book_store_app
+# Web aplikacija knjižare "Perce"
  Projekat iz programiranja korisničkih interfejsa
